@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML & CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>HTML & CSS Quiz</h1>
+
+        <form action="#" method="post" class="quiz-form">
+            <div class="form-row">
+                <label for="q1">1) What does “HTML” stand for?</label>
+                <input type="text" id="q1" name="q1" autocomplete="off" required>
+            </div>
+
+            <div class="form-row">
+                <label for="q2">2) Briefly describe the purpose of the &lt;label&gt; element in a form.</label>
+                <textarea id="q2" name="q2" rows="5" required></textarea>
+            </div>
+
+            <div class="form-row">
+                <label for="q3">3) Which option is the element selector for all paragraph elements?</label>
+                <select id="q3" name="q3" required>
+                    <option value="" selected disabled>Choose one …</option>
+                    <option value="p">p</option>
+                    <option value=".p">.p</option>
+                    <option value="#p">#p</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="q4">4) How many heading levels exist in HTML?</label>
+                <input type="number" id="q4" name="q4" min="1" step="1" required>
+            </div>
+
+            <button type="submit" class="btn">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+
+</html>

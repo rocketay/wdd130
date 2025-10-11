@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splash – Contact Us</title>
+    <meta name="description"
+        content="Contact Splash White Water Rafting in Costa Rica. Ask about trips, reservations, safety, or send us suggestions. Get our location, phone, email, and a quick form." />
+    <meta name="author" content="Tayron Murillo" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/z-splash.png" alt="Splash White Water Rafting logo image" />
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" aria-current="page">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company">
+            <h1 class="contact-title">Contact Splash</h1>
+
+            <address>
+                <p>123 Main River Street</p>
+                <p>Kolob, California</p>
+                <p><a href="tel:+19999999999">+1 999 999 9999</a></p>
+                <p><a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+            </address>
+        </section>
+
+        <section class="contact-grid">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373631531677!3d-37.8162797420117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ4JzU4LjYiUyAxNDTCsDU3JzI2LjQiRQ!5e0!3m2!1sen!2sus!4v1699999999999"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    title="Splash location on Google Maps"></iframe>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Full name" required />
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <label class="radio">
+                        <input type="radio" name="purpose" value="general" required />
+                        General Inquiry
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="purpose" value="reservation" />
+                        Reservation Question
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="purpose" value="website" />
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message</legend>
+                    <label for="message" class="sr-only">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Type your message here…"
+                        required></textarea>
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="subscribe" value="yes" />
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button class="btn" type="submit">Get in touch!</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <figure class="employee">
+                <img src="images/employee-1.jpg" alt="Andrea Solís — River Guide" />
+                <figcaption><strong>Andrea Solís</strong><br><span>Lead River Guide</span></figcaption>
+            </figure>
+            <figure class="employee">
+                <img src="images/employee-2.jpg" alt="Mauricio Vega — Safety" />
+                <figcaption><strong>Mauricio Vega</strong><br><span>Safety Director</span></figcaption>
+            </figure>
+            <figure class="employee">
+                <img src="images/employee-3.jpg" alt="Karla Jiménez — Reservations" />
+                <figcaption><strong>Karla Jiménez</strong><br><span>Reservations Manager</span></figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Splash — Tayron Murillo</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook-bw.svg" alt="facebook icon" width="40" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram-bw.svg" alt="instagram icon" width="40" />
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener">
+                <img src="images/tictok-bw.svg" alt="tiktok icon" width="40" />
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
