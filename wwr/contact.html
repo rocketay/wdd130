@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Splash – Contact Us</title>
     <meta name="description"
@@ -43,7 +43,7 @@
             </div>
 
             <form class="contact-form" action="#" method="post">
-                <fieldset>
+                <fieldset id="info">
                     <legend>Your Information</legend>
                     <label for="name">Name</label>
                     <input id="name" name="name" type="text" placeholder="Full name" required />
@@ -52,7 +52,7 @@
                     <input id="email" name="email" type="email" placeholder="you@example.com" required />
                 </fieldset>
 
-                <fieldset>
+                <fieldset id="message">
                     <legend>Message Purpose</legend>
                     <label class="radio">
                         <input type="radio" name="purpose" value="general" required />
@@ -68,7 +68,7 @@
                     </label>
                 </fieldset>
 
-                <fieldset>
+                <fieldset id="message-p">
                     <legend>Message</legend>
                     <label for="message" class="sr-only">Message</label>
                     <textarea id="message" name="message" rows="6" placeholder="Type your message here…"
